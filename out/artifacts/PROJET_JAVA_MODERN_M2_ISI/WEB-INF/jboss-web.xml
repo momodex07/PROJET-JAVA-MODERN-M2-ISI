@@ -1,0 +1,4 @@
+<!-- src/main/webapp/WEB-INF/jboss-web.xml -->
+<jboss-web>
+    <context-root>/PROJET-JAVA-MODERN-M2-ISI</context-root>
+</jboss-web>

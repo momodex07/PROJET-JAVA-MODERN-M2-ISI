@@ -1,0 +1,41 @@
+2025-03-27T20:55:52.046Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] c.e.e.ProjetJavaModernM2IsiApplication   : Starting ProjetJavaModernM2IsiApplication using Java 22.0.1 with PID 73219 (/Users/mouhamadoudiouf/Downloads/Master2_ISI/IS/projet/PROJET-JAVA-MODERN-M2-ISI/target/classes started by mouhamadoudiouf in /Users/mouhamadoudiouf/Downloads/Master2_ISI/IS/projet/PROJET-JAVA-MODERN-M2-ISI)
+2025-03-27T20:55:52.049Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] c.e.e.ProjetJavaModernM2IsiApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-27T20:55:52.405Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:55:52.412Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:55:52.412Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-27T20:55:52.488Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-03-27T20:55:52.494Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:55:52.495Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 424 ms
+2025-03-27T20:55:52.643Z  WARN 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-27T20:55:52.652Z  INFO 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-27T20:55:52.659Z ERROR 73219 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-03-27T20:56:16.346Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] c.e.e.ProjetJavaModernM2IsiApplication   : Starting ProjetJavaModernM2IsiApplication using Java 22.0.1 with PID 73335 (/Users/mouhamadoudiouf/Downloads/Master2_ISI/IS/projet/PROJET-JAVA-MODERN-M2-ISI/target/classes started by mouhamadoudiouf in /Users/mouhamadoudiouf/Downloads/Master2_ISI/IS/projet/PROJET-JAVA-MODERN-M2-ISI)
+2025-03-27T20:56:16.347Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] c.e.e.ProjetJavaModernM2IsiApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-27T20:56:16.709Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:56:16.716Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:56:16.716Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-27T20:56:16.792Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-03-27T20:56:16.795Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:56:16.795Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 426 ms
+2025-03-27T20:56:16.940Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-27T20:56:16.945Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [main] c.e.e.ProjetJavaModernM2IsiApplication   : Started ProjetJavaModernM2IsiApplication in 0.798 seconds (process running for 1.092)
+2025-03-27T20:56:30.818Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27T20:56:30.818Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-27T20:56:30.820Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-27T20:57:53.355Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T20:57:55.363Z  INFO 73335 --- [PROJET-JAVA-MODERN-M2-ISI] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

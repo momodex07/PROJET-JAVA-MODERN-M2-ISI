@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: mouhamadoudiouf
+Build-Jdk: Oracle OpenJDK 22.0.1 - aarch64
+Implementation-Title: PROJET-JAVA-MODERN-M2-ISI
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.rewardomain
+Main-Class: ${start-class}
+
